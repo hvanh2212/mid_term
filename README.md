@@ -3,7 +3,7 @@ Objectives: Build backend for a ticket system using FastAPI and SQL Alchemy and 
 Database schema:
 
 tickets	:
-Table|Field|Technical Detail|Type
+Field|Technical Detail|Type
 ticket_id|Default value(uuid4) (primary key)|UUID4
 ticket_name|Not Nullable|str
 ticket_description|Not Nullable|str
