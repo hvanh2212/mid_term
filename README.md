@@ -18,6 +18,8 @@ Database schema:
 | priority_name | Only Low, Medium, High | str |
 
 # owner:
+| Field | Technical Detail | Type |
+| ----------- | ----------- | ----------- |
 | owner_id | Default value(uuid4) (primary key) | UUID4 |
 | owner_name | Not Nullable | str |
 | owner_mail | Not Nullable | str |
