@@ -39,4 +39,4 @@ Specification:
 	+ Update ticket details (change ticket info except ticket_id, and re-update the updated_time)
 	+ Delete ticket: Delete a ticket by ID. Can delete multiple tickets at once if user pass a list to API. Ex: {“ticket_ids”: [“1”, “2”, “3”]}
 
-Note: API Path name and method are optional. You can create any paths and methods if you find it’s suitable. Please write comments in your code and explain what this function/class does. All requests must be in JSON type.
+## Note: API Path name and method are optional. You can create any paths and methods if you find it’s suitable. Please write comments in your code and explain what this function/class does. All requests must be in JSON type.
