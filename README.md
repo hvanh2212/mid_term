@@ -32,9 +32,9 @@ Specification:
 - Create API using FastAPI for this function:
 	+ Create tickets
 	+ Get tickets (list all ticket if no filter parameter passed), if has, filter ticket by:
-		- ticket_name: list all tickets which ticket_name contain an input string
-		- owner: list all tickets which belong to this owner_name or owner_mail
-		- category_name: list all tickets which has category_name equal to input string
+		- ticket_name: list all tickets which ticket_name *contain* an input string
+		- owner: list all tickets which belong to this *owner_name* or *owner_mail*
+		- category_name: list all tickets which has category_name *equal* to input string
 		- API has ability to return records if 1 or all filters are selected.
 	+ Update ticket details (change ticket info except ticket_id, and re-update the updated_time)
 	+ Delete ticket: Delete a ticket by ID. Can delete multiple tickets at once if user pass a list to API. Ex: {“ticket_ids”: [“1”, “2”, “3”]}
