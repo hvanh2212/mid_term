@@ -2,22 +2,22 @@
 Objectives: Build backend for a ticket system using FastAPI and SQL Alchemy and SQLite3
 Database schema:
 
-tickets:
-|Field|Technical Detail|Type
-|ticket_id|Default value(uuid4) (primary key)|UUID4
-|ticket_name|Not Nullable|str
-|ticket_description|Not Nullable|str
-|created_time|Default value (datetime now)|datetime
-|updated_time|Default value (datetime now) (only use when edit)|datetime | None
-|status_name|Only New, On-going, Done|str
-|assignee_id|Foreign key with owner_id|UUID4
-|assigner_id |Foreign key with owner_id|UUID4
-|category_name|Nullable|str
-|priority_name|Only Low, Medium, High|str
-owner	:
-owner_id|Default value(uuid4) (primary key)|UUID4
-owner_name|Not Nullable|str
-owner_mail|Not Nullable|str
+#tickets:
+|Field|Technical Detail|Type|
+|ticket_id|Default value(uuid4) (primary key)|UUID4|
+|ticket_name|Not Nullable|str|
+|ticket_description|Not Nullable|str|
+|created_time|Default value (datetime now)|datetime|
+|updated_time|Default value (datetime now) (only use when edit)|datetime, None|
+|status_name|Only New, On-going, Done|str|
+|assignee_id|Foreign key with owner_id|UUID4|
+|assigner_id |Foreign key with owner_id|UUID4|
+|category_name|Nullable|str|
+|priority_name|Only Low, Medium, High|str|
+#owner:
+owner_id|Default value(uuid4) (primary key)|UUID4|
+owner_name|Not Nullable|str|
+owner_mail|Not Nullable|str|
 
 
 
