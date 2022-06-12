@@ -2,7 +2,8 @@
 Objectives: Build backend for a ticket system using FastAPI and SQL Alchemy and SQLite3
 Database schema:
 
-#tickets:
+# tickets:
+
 |Field|Technical Detail|Type|
 |ticket_id|Default value(uuid4) (primary key)|UUID4|
 |ticket_name|Not Nullable|str|
@@ -14,7 +15,8 @@ Database schema:
 |assigner_id |Foreign key with owner_id|UUID4|
 |category_name|Nullable|str|
 |priority_name|Only Low, Medium, High|str|
-#owner:
+
+# owner:
 owner_id|Default value(uuid4) (primary key)|UUID4|
 owner_name|Not Nullable|str|
 owner_mail|Not Nullable|str|
